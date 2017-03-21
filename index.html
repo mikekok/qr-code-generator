@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Generator</title>
+
+    <!-- Custom CSS -->
+    <link href="./assets/css/photon.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="window">
+        <header class="toolbar toolbar-header">
+            <div class="wincontrols">
+                <div class="wincontrol winclose"></div>
+                <!-- <div class="wincontrol winmax"></div> -->
+                <div class="wincontrol winmini"></div>
+            </div>
+            <h1 class="title">QR Code Generator</h1>
+        </header>
+        <div id="app" class="window-content">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter anything to convert" v-model="plainText">
+                <img :src="setImage()">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    if (typeof module === 'object') {
+        window.module = module;
+        module = undefined;
+    }
+</script>
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/js/vue.min.js"></script>
+<script src="./assets/js/lodash.min.js"></script>
+<script src="convert.js"></script>
+<script>
+    if (window.module) module = window.module;
+</script>
+
+</html>

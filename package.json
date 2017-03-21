@@ -1,0 +1,15 @@
+{
+  "name": "QR-Code-Generator",
+  "version": "1.0.0",
+  "description": "An instant QR Code Genetator made with Electron",
+  "repository": "mikekok/qr-code-generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Mike Kokkolios",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}

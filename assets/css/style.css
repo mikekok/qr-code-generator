@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.window-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 200px;
+}
+
+.form-group .form-control {
+    text-align: center;
+}
+
+.form-group img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
