@@ -8,6 +8,7 @@ Vue.js is also used in this project, in order to instantly turn plain text into 
 
 ## Credits
 * [Electron](https://electron.atom.io)
+* [QR Code API](http://goqr.me)
 * [PhotonKit](http://photonkit.com)
 * [Vue.js](https://vuejs.org)
 * [Alfredo Hernandez from Flaticon](http://www.flaticon.com/authors/alfredo-hernandez)
