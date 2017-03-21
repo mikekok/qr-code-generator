@@ -6,6 +6,18 @@ Vue.js is also used in this project, in order to instantly turn plain text into 
 ## Preview
 ![QR Code Generator](http://i.imgur.com/2ArvYFR.png "QR Code Generator")
 
+## Installation
+``` bash
+# Clone this repository
+git clone https://github.com/mikekok/qr-code-generator
+# Go into the repository
+cd qr-code-generator
+# Install dependencies
+npm install
+# Run the app
+npm start
+```
+
 ## Credits
 * [Electron](https://electron.atom.io)
 * [QR Code API](http://goqr.me)
